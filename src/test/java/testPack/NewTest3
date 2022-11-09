@@ -1,1 +1,10 @@
-//Add more test cases
+package testPack;
+
+import org.testng.annotations.Test;
+
+public class NewTest3 {
+  @Test
+  public void f() {
+	  System.out.println("Test Number 3");
+  }
+}
